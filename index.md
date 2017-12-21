@@ -5,7 +5,7 @@ venue: "University of Milano Bicocca"        # brief name of host site without a
 address: "lab 716, floor 1, building U7, Via Bicocca degli Arcimboldi, 8 - 20126 Milano"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "Italy"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "45.5172867,9.211163"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "45.5173851,9.2105892,16.82z"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Feb 22-23, 2017"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2017-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
