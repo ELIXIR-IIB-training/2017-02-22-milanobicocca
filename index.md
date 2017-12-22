@@ -10,7 +10,7 @@ humandate: "Feb 22-23, 2018"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 deadline: "Jan 25, 2018"	# human-readable date for the deadline 
 fee: "30 euros"			# fee
-application_form: "https://elixir-iib-training.github.io/website/courses/" #link to the application form
+application_form: "https://goo.gl/forms/t69Nv4HwcEX5hQFj2" #link to the application form
 startdate: 2018-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Giuseppe Profiti", "Allegra Via"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
