@@ -118,7 +118,7 @@ DEADLINE
 {% endcomment %}
 {% if page.deadline %}
 <p id="when">
-  <strong>Application deadline:</strong>
+  <strong>Registration deadline:</strong>
   {{page.deadline}}.
 
 </p>
