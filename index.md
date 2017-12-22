@@ -101,7 +101,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %}
   DATE
-
   This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
@@ -125,8 +124,8 @@ DEADLINE
 </p>
 {% endif %}
 
+{% comment %}
 FEE
-
   This block displays the fee.
 {% endcomment %}
 {% if page.fee %}
