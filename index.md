@@ -125,18 +125,12 @@ DEADLINE
 {% endif %}
 
 {% comment %}
-  EVENTBRITE
+  APPLICATION FORM
 
   This block includes the link to the application form.
 {% endcomment %}
 {% if page.application_form %}
-<iframe
-  src="{page.application_form}"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
+"<a href="{{page.application_form}}">Application Form</a>".
 {% endif %}
 
 {% comment %}
