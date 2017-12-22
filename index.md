@@ -125,12 +125,12 @@ DEADLINE
 {% endif %}
 
 {% comment %}
-  APPLICATION FORM
+  REGISTRATION FORM
 
   This block includes the link to the application form.
 {% endcomment %}
 {% if page.application_form %}
-"<a href="{{page.application_form}}">Application Form</a>".
+ <strong>Registration form: </strong> Click <a href="{{page.application_form}}">here</a> to register.
 {% endif %}
 
 {% comment %}
