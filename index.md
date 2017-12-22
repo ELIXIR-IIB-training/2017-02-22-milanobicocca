@@ -9,7 +9,8 @@ latlng: "45.517557,9.212989"       # decimal latitude and longitude of workshop 
 humandate: "Feb 22-23, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 deadline: "Jan 25, 2018"	# human-readable date for the deadline 
-startdate: 2018-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+application_form: "https://elixir-iib-training.github.io/website/courses/" #link to the application form
+startdate: 2018-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Giuseppe Profiti", "Allegra Via"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Gianluca Della Vedova","Luca Denti", "Murray Patterson", "Dario Pescini","Marco Previtali"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
@@ -111,7 +112,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 {% comment %}
-DEADLINES
+DEADLINE
 
   This block displays the deadlines.
 {% endcomment %}
@@ -121,6 +122,21 @@ DEADLINES
   {{page.deadline}}.
 
 </p>
+{% endif %}
+
+{% comment %}
+  EVENTBRITE
+
+  This block includes the link to the application form.
+{% endcomment %}
+{% if page.application_form %}
+<iframe
+  src="{page.application_form}"
+  frameborder="0"
+  width="100%"
+  height="248px"
+  scrolling="auto">
+</iframe>
 {% endif %}
 
 {% comment %}
