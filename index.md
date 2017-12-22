@@ -110,7 +110,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 {% endif %}
 
+{% comment %}
 DEADLINES
+
   This block displays the deadlines.
 {% endcomment %}
 {% if page.deadline %}
